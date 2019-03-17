@@ -70,7 +70,7 @@ export class CharityList extends BaseReactComponent {
                                 <div className="easy"/>
                             </div>
                             <div className="donate-button">
-                                <Button variant="contained">Donate to a Project</Button>
+                                <Button href="https://www.akfcnetcommunity.ca/netcommunity/akfc_donation" variant="contained">Donate to a Project</Button>
                             </div>
                         </div>
                     </section>
@@ -120,7 +120,7 @@ export class CharityList extends BaseReactComponent {
                                 <div className="easy"/>
                             </div>
                             <div className="donate-button">
-                                <Button variant="contained">Donate to a Project</Button>
+                                <Button href="http://www.rimokahousing.ca/services" variant="contained">Donate to a Project</Button>
                             </div>
                         </div>
                     </section>
@@ -173,7 +173,7 @@ export class CharityList extends BaseReactComponent {
                                 <div className="easy"/>
                             </div>
                             <div className="donate-button">
-                                <Button variant="contained">Donate to a Project</Button>
+                                <Button href="https://www.icya.ca/donate" variant="contained">Donate to a Project</Button>
                             </div>
                         </div>
                     </section>
@@ -225,7 +225,7 @@ export class CharityList extends BaseReactComponent {
                                 <div className="easy"/>
                             </div>
                             <div className="donate-button">
-                                <Button variant="contained">Donate to a Project</Button>
+                                <Button href="https://www.tblg.org/donate" variant="contained">Donate to a Project</Button>
                             </div>
                         </div>
                     </section>
