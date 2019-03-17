@@ -308,13 +308,15 @@ export const CHARITY_CATEGORY_CODE_LIST = [
     'charityTypeEn': 'Welfare',
     'charityTypeFr': 'Bien-être',
     'descEn': 'Organizations Providing Care Other than Treatment',
-    'descFr': 'Organisme fournissant des soins autres que des traitements'
+    'descFr': 'Organisme fournissant des soins autres que des traitements',
+    'blurb': ''
   },
   {
     'charityTypeEn': 'Welfare',
     'charityTypeFr': 'Bien-être',
     'descEn': 'Disaster Funds',
-    'descFr': 'Fonds pour les désastres'
+    'descFr': 'Fonds pour les désastres',
+    'blurb': 'Disaster mitigation measures may be structural (e.g. flood dikes) or non-structural (e.g. land use zoning). Mitigation activities should incorporate the measurement and assessment of the evolving risk environment. Activities may include the creation of comprehensive, pro-active tools that help decide where to focus funding and efforts in risk reduction.'
   },
   {
     'charityTypeEn': 'Welfare',
@@ -326,13 +328,15 @@ export const CHARITY_CATEGORY_CODE_LIST = [
     'charityTypeEn': 'Welfare',
     'charityTypeFr': 'Bien-être',
     'descEn': '(Welfare) Charitable Trusts',
-    'descFr': '(Bien-être) Fiducies de bienfaisance'
+    'descFr': '(Bien-être) Fiducies de bienfaisance',
+    'blurb': 'A charitable trust is a non-profit organization whose primary objectives are philanthropy and social well-being. It also generates good will. Some important terminology in charitable trusts is the term ‘corpus’ (Latin for ‘body’) which refers to the assets with which the trust is funded and the term ‘donor’ which is the person donating assets to a charity.'
   },
   {
     'charityTypeEn': 'Welfare',
     'charityTypeFr': 'Bien-être',
     'descEn': 'Welfare Organizations (not else classified)',
-    'descFr': 'Organisme de bien-être, (sans autre classification)'
+    'descFr': 'Organisme de bien-être, (sans autre classification)',
+    'blurb': 'The term welfare organizations mean those organizations who work for the welfare of the community. These organizations working to provide all the basic amenities of life to the ailing community for preventive welfare through structural changes in society.'
   },
   {
     'charityTypeEn': 'Health',

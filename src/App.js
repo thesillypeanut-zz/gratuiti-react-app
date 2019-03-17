@@ -1,8 +1,9 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import {BaseReactComponent} from './react-components/base-react-component';
 import {CategoryCardList} from './react-components/category-card-list';
+import {CharityList} from './react-components/charity-list';
 import MenuAppBar from './react-components/menu-app-bar';
 
 import './App.css';
@@ -36,6 +37,7 @@ const HomePage = () => {
 const CharityPage = () => {
     return (
         <section className="app__main">
+            <CharityList />
         </section>
     );
 };

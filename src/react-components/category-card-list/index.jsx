@@ -22,7 +22,7 @@ export class CategoryCardList extends BaseReactComponent {
             CHARITY_CATEGORY_CODE_LIST.filter(char => char['charityTypeEn'] === category).map(
                 item => (
                     <li className="category-card-list__item" key={kebabCase(item.descEn)}>
-                        <CategoryCard classes={classes} title={item.descEn} />
+                        <CategoryCard classes={classes} title={item.descEn} blurb={'blurb' in item ? item.blurb : 'SAMPLE BLURB'} />
                     </li>
                 ))
         );
