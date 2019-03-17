@@ -34,8 +34,8 @@ const styles = theme => ({
     expandOpen: {
         transform: 'rotate(180deg)',
     },
-    right: {
-        textAlign: 'right'
+    center: {
+        textAlign: 'center',
     }
 });
 
@@ -47,7 +47,7 @@ class CharityCard extends React.Component {
     };
 
     render() {
-        const {classes, title, subheader, image, blurb, cdLink, details} = this.props;
+        const {classes, title, subheader, image, blurb, cdLink} = this.props;
 
         return (
             <Card className={classes.card}>
