@@ -23,7 +23,7 @@ const styles = {
     marginRight: 20,
   },
   logo: {
-    width: 50,
+    width: 200,
   }
 };
 
@@ -58,7 +58,7 @@ class MenuAppBar extends React.Component {
               <img className={classes.logo} src='/images/logo.png' alt="logo" />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.grow}>
-              Gratuiti - Find and Compare Charities
+
             </Typography>
             {auth && (
               <div>
