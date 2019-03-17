@@ -35,7 +35,7 @@
 }
 
 .charity-list__item div div:nth-child(4) {
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 

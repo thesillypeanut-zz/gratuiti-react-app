@@ -9,6 +9,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
+import { Link } from 'react-router-dom';
 
 const styles = {
   root: {
@@ -53,7 +54,7 @@ class MenuAppBar extends React.Component {
       <div className={classes.root}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+            <IconButton href="/" className={classes.menuButton} color="inherit" aria-label="Menu">
               <img className={classes.logo} src='/images/logo.png' alt="logo" />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.grow}>
